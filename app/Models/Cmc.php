@@ -12,6 +12,12 @@ class Cmc extends Model
     use SoftDeletes;
     use HasFactory;
 
+    public const STATUS_SELECT = [
+        'uploaded' => 'Uploaded',
+        'updated'  => 'Updated',
+        'new'      => 'New',
+    ];
+
     public $table = 'cmcs';
 
     protected $dates = [
@@ -29,6 +35,7 @@ class Cmc extends Model
         'price',
         'market_cap',
         'cmc_link',
+        'status',
         'created_at',
         'updated_at',
         'deleted_at',

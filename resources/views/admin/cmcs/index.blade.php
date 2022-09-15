@@ -47,6 +47,9 @@
                             {{ trans('cruds.cmc.fields.market_cap') }}
                         </th>
                         <th>
+                            {{ trans('cruds.cmc.fields.status') }}
+                        </th>
+                        <th>
                             &nbsp;
                         </th>
                     </tr>
@@ -80,6 +83,9 @@
                             </td>
                             <td>
                                 {{ $cmc->market_cap ?? '' }}
+                            </td>
+                            <td>
+                                {{ App\Models\Cmc::STATUS_SELECT[$cmc->status] ?? '' }}
                             </td>
                             <td>
                                 @can('cmc_show')

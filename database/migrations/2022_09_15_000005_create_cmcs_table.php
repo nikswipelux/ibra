@@ -18,6 +18,7 @@ class CreateCmcsTable extends Migration
             $table->string('price')->nullable();
             $table->string('market_cap')->nullable();
             $table->string('cmc_link')->nullable();
+            $table->string('status')->nullable();
             $table->timestamps();
             $table->softDeletes();
         });
