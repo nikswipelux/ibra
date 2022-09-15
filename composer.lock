@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7cddb5e17733f82b5ca252ff98c7cdbf",
+    "content-hash": "d1bae097739a7183c7efa8fac9d01e55",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1031,54 +1031,6 @@
                 }
             ],
             "time": "2022-08-28T14:45:39+00:00"
-        },
-        {
-            "name": "kriosmane/coinmarketcap-api",
-            "version": "v2.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/kriosmane/coinmarketcap-api.git",
-                "reference": "b21f349de4fdb2a6841819043cd9f55985e6fc57"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/kriosmane/coinmarketcap-api/zipball/b21f349de4fdb2a6841819043cd9f55985e6fc57",
-                "reference": "b21f349de4fdb2a6841819043cd9f55985e6fc57",
-                "shasum": ""
-            },
-            "require": {
-                "guzzlehttp/guzzle": "^6.3|^7.0.1",
-                "php": "^7.1|^8.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "KriosMane\\CoinMarketCap\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Krios Mane",
-                    "email": "krios.mane@gmail.com"
-                }
-            ],
-            "description": "Laravel package for interacting with CoinMarketCap Api",
-            "homepage": "https://github.com/kriosmane/coinmarketcap-api",
-            "keywords": [
-                "api",
-                "coin marketcap",
-                "laravel",
-                "pro"
-            ],
-            "support": {
-                "issues": "https://github.com/kriosmane/coinmarketcap-api/issues",
-                "source": "https://github.com/kriosmane/coinmarketcap-api/tree/v2.0.0"
-            },
-            "time": "2021-04-09T13:25:57+00:00"
         },
         {
             "name": "laravel/framework",
@@ -8136,5 +8088,5 @@
         "php": "^8.0.2"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.1.0"
 }

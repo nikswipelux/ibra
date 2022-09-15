@@ -90,6 +90,14 @@
                                         {{ $cmc->cmc_link }}
                                     </td>
                                 </tr>
+                                <tr>
+                                    <th>
+                                        {{ trans('cruds.cmc.fields.status') }}
+                                    </th>
+                                    <td>
+                                        {{ App\Models\Cmc::STATUS_SELECT[$cmc->status] ?? '' }}
+                                    </td>
+                                </tr>
                             </tbody>
                         </table>
                         <div class="form-group">
